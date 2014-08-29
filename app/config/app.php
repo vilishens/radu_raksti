@@ -13,7 +13,7 @@ return array(
 	|
 	*/
 
-	'debug' => false,
+	'debug' => true,
 
 	/*
 	|--------------------------------------------------------------------------
@@ -39,7 +39,7 @@ return array(
 	|
 	*/
 
-	'timezone' => 'UTC',
+	'timezone' => 'Europe/Riga',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -78,7 +78,7 @@ return array(
 	|
 	*/
 
-	'key' => 'lE4eaTBX2RCa9h8sfxX5US4brJXgaGhd',
+	'key' => 'UoCQpNaa20nWzlCkbEreO7ASdmml4JC2',
 
 	'cipher' => MCRYPT_RIJNDAEL_128,
 
