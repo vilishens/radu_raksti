@@ -26,7 +26,7 @@ return array(
 	|
 	*/
 
-	'default' => 'mysql',
+	'default' => 'radu_raksti_pgsql',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -62,7 +62,18 @@ return array(
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
 		),
-
+            
+		'radu_raksti_pgsql' => array(
+			'driver'   => 'pgsql',
+			'host'     => 'localhost',
+			'database' => 'radu_raksti',
+			'username' => 'ero',
+			'password' => 'me03ir8038', # mentiranta
+			'charset'  => 'utf8',
+			'prefix'   => '',
+			'schema'   => 'public',
+		),
+            
 		'pgsql' => array(
 			'driver'   => 'pgsql',
 			'host'     => 'localhost',
