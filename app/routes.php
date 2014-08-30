@@ -15,3 +15,10 @@ Route::get('/', function()
 {
 	return View::make('hello');
 });
+
+// Set Home Route for Sentinel
+ Route::get('/', array('as' => 'home', function()
+{
+#    return View::make('home');
+    return View::make('hello');
+}));
