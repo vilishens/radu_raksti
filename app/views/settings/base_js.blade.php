@@ -23,4 +23,4 @@
                 </div>
                 
                 <script src = "jquery/jquery"></script>
-		<script src = "bootstrap/js/js_bootstrap"></script>
+                <script src = "bootstrap/js/js_bootstrap"></script>
