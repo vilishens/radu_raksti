@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		@include('settings.config_vk_header')
+		@include('settings.base_header')
 	</head>
 	<body>
- 		@include('layouts.navigation_vk')
+ 		@include('layouts.navigation')
 
 		@yield('saturs')
 
-		@include('settings.config_vk_js')	
+		@include('settings.base_js')	
 	</body>
 </html>

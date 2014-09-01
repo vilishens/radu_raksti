@@ -1,4 +1,4 @@
-@extends('layouts.baze_vk')
+@extends('layouts.base')
 
 @section('saturs')
 	<div class = "container">
