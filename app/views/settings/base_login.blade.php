@@ -50,7 +50,7 @@
         <p>We need this information so that you can receive access to the site and its content. Rest assured your information will not be sold, traded, or given to anyone.</p>
         <p></p><br> Please contact <a mailto:href="JoeSixPack@Sixpacksrus.com"></a>JoeSixPack@Sixpacksrus.com</a> for any other inquiries.</p>
         </div>
-        <div style="padding-left:30px" class="tab-pane fade active in" id="signin">
+        <div class="tab-pane fade active in" id="signin">
             {{ Form::open(array('route' => 'sessions.store'
                                          , 'method' => 'post'
                                          , 'action' => 'Sentinel\SessionController@create')) }}
