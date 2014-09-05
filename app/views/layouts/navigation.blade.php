@@ -23,7 +23,7 @@
                                     </ul>
 				</li>
                                 
-                                <li><a href="#loginout" data-toggle="modal">Log In or Out</a></li>
+                                @include('settings.base_log_in_out')
 
 				<li><a href = "{{ URL::route('home') }}">Par lapu</a></li>
 				<li><a href = "{{ URL::route('home') }}">Kontaktinformācija</a></li>
