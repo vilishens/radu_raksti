@@ -1,6 +1,6 @@
 		<div class = "navbar navbar-inverse navbar-static-top">
                     <div class = "container">
-			<a href = "#" class = "navbar-brand">Viļa midzenītis</a>
+			<a href = "#" class = "navbar-brand">{{ Lang::get('base.site_name') }}</a>
 			<button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
                             <span class = "icon-bar"></span>
                             <span class = "icon-bar"></span>
